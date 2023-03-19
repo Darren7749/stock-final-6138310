@@ -1,7 +1,7 @@
 - Ha Ngoc Bao Linh, 6138310
 
 - Project detail: 
-this is the Supplier website that the user can add supplier's information detaily. After adding the information, user can see the option for the case they need to detele or add more. After that, the information will be updated.
+this is the Supplier website (which is extended from the Stock Management project) that the user can add supplier's information detaily. After adding the information, user can see the option for the case they need to detele or add more. After that, the information will be updated.
 
 - App's functionality: 
 . ADD: User can add supplier's information
