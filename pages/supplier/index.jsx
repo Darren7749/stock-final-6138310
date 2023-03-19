@@ -17,6 +17,17 @@ export default function Home() {
       })
   }, [])
 
+  function deleteBlog(id) {
+    fetch(`http://localhost:3000/api/blogs/articles/${id}`,
+    {
+        method: 'DELETE'
+    })
+    .then(res => res.json())
+    .then(data => {
+      alert("Deleting " + id)
+    })
+  }
+
   return (
     <>
       <Head>
@@ -36,7 +47,6 @@ export default function Home() {
       </ul>
       <p>
       </p>
-
     </>
   )
 }
