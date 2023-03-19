@@ -1,0 +1,11 @@
+const database = 'supplier';
+const collection = 'info';
+
+use(database);
+
+db.info.insert({
+  supplier_name: "Declan Soto",
+  address: "770-4722 Ut Avenue",
+  phone_number: "1-496-189-1645"
+})
+

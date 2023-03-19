@@ -1,0 +1,11 @@
+const database = 'supplier';
+const collection = 'info';
+
+use(database);
+
+db.info.insert({
+  supplier_name: 'Rinah Gaines',
+  address: 'P.O. Box 662, 7059 Nunc Ave',
+	phone_number: '(634) 169-8217'
+})
+

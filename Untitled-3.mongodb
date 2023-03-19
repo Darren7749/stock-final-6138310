@@ -1,0 +1,10 @@
+const database = 'supplier';
+const collection = 'info';
+
+use(database);
+
+db.info.insert({
+  supplier_name: "India Hale",
+  address: "Ap #717-9465 Ac Road",
+  phone_number: "(628) 238-7892"
+})
